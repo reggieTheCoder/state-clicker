@@ -26,8 +26,8 @@ class Clicker extends Component {
                 <button onClick={this.genRandom}>Click Me</button>
                 {this.state.num === 7 && 
                 <div> 
-                    <h2>You Win!!!</h2>
-                    <img src="https://media.giphy.com/media/LFiOdYoOlEKac/giphy.gif"/>
+                    <h2>Thanks for playing</h2>
+                    <img src="https://media.giphy.com/media/ToMjGpyO2OVfPLpoxu8/giphy.gif"/>
                 </div> }
                
                 {/* Click me button that displays that runs the function genRandom on click  */}
